@@ -54,7 +54,7 @@ export default function HomePage() {
           <p className="text-white text-m">
             One of the most accessible homes to those with special needs
           </p>
-          <a href="#" className="text-orange-600 underline text-4xl opacity-0 translate-y-4 animate-fadeInUp">we discourage visitors to avoid Coronavirus</a>
+          <a href="/covid-19" className="text-orange-600 underline text-4xl opacity-0 translate-y-4 animate-fadeInUp">we discourage visitors to avoid Coronavirus</a>
         </div>
       </section>
 

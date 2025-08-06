@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -19,20 +21,30 @@ export default function Footer() {
 
         {/* Column 3: Contact */}
         <div className="font-semibold">
-          <p>Tel: +1-705-426-1496</p>
+          <a href="tel:7054261496">Tel: +1-705-426-1496</a>
           <p>Email: <a href="mailto:themaraplace@gmail.com" className="underline">themaraplace@gmail.com</a></p>
         </div>
 
         {/* Column 4: Social Icons */}
-        <div className="flex justify-center md:justify-end space-x-3">
-          <a href="#" className="bg-gray-700 p-2 rounded hover:bg-gray-600 transition">
-            <i className="fab fa-facebook-f text-white"></i>
+        {/* Social Icons */}
+        <div className="flex space-x-4 mt-8 justify-center">
+          <a
+            href="#"
+            className="bg-cyan-900 p-3 rounded-full text-white hover:bg-teal-600 transition"
+          >
+            <FaFacebookF />
           </a>
-          <a href="#" className="bg-gray-700 p-2 rounded hover:bg-gray-600 transition">
-            <i className="fab fa-twitter text-white"></i>
+          <a
+            href="#"
+            className="bg-cyan-900 p-3 rounded-full text-white hover:bg-teal-600 transition"
+          >
+            <FaTwitter />
           </a>
-          <a href="#" className="bg-gray-700 p-2 rounded hover:bg-gray-600 transition">
-            <i className="fab fa-instagram text-white"></i>
+          <a
+            href="#"
+            className="bg-cyan-900 p-3 rounded-full text-white hover:bg-teal-600 transition"
+          >
+            <FaLinkedinIn />
           </a>
         </div>
       </div>

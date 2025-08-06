@@ -89,7 +89,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link
-                        href="/more/covid-pages"
+                        href="/more/covid"
                         className={`block px-6 py-3 hover:bg-cyan-700 ${
                           pathname === "/more/covid-pages"
                             ? "bg-cyan-700"
@@ -192,7 +192,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link
-                      href="/more/covid-pages"
+                      href="/more/covid"
                       onClick={() => {
                         setMenuOpen(false);
                         setMoreOpen(false);

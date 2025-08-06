@@ -1,8 +1,8 @@
-// src/app/covid19/page.tsx
 "use client";
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
+
 export default function COVID19Page() {
   const bgImage = "/covid.jpg";
 
@@ -19,24 +19,24 @@ export default function COVID19Page() {
         />
 
         {/* Overlay content */}
-        <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-black/80 text-white p-8 rounded-full max-w-md text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-2">COVID-19</h2>
-            <p className="text-sm md:text-base leading-relaxed">
+        <div className="absolute inset-0 flex items-center justify-center px-4">
+          <div className="bg-black/80 text-white p-6 sm:p-8 rounded-full max-w-xs sm:max-w-md text-center">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-2">COVID-19</h2>
+            <p className="text-sm sm:text-base leading-relaxed">
               The health and well-being of our residents is our top priority. Learn about the protective measures Mara Place Residence has in place to help mitigate the spread of COVID-19.
             </p>
             <Link
-            href="/more/covid-pages"
-            className="inline-block mt-4 px-4 py-2 bg-white text-black rounded hover:bg-gray-200 text-sm font-medium transition"
+              href="/more/covid"
+              className="inline-block mt-4 px-4 py-2 bg-white text-black rounded hover:bg-gray-200 text-sm font-medium transition"
             >
-            Responsive Measures
+              Responsive Measures
             </Link>
           </div>
         </div>
       </div>
 
       {/* Social Icons */}
-      <div className="flex space-x-4 mt-8">
+      <div className="flex justify-center space-x-4 mt-8">
         <a
           href="#"
           className="bg-teal-500 p-3 rounded-full text-white hover:bg-teal-600 transition"
