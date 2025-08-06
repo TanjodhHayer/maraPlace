@@ -12,7 +12,6 @@ export default function HomePage() {
     { src: '/patio.jpg', name: 'Patio' },
     { src: '/yard.jpg', name: 'Yard' },
     { src: '/sofas.jpg', name: 'Living Room' },
-    { src: '/gazebo.jpg', name: 'Gazebo' },
   ];
 
   // Modal state
@@ -133,12 +132,16 @@ export default function HomePage() {
         We pride ourselves in being one of the most accessible homes to those with special needs. 
         The facility and staff create a supportive environment making Mara Place a comfortable and relaxing living environment. 
         Daily activities include programs that offer residents an outlet for social interaction such as out of town day trips and a variety of in-house activites such as board games, movie nights, arts and crafts and much more. 
-        An unassuming group, Mara Place is made up of a diverse group of individuals that make life here a stimulating and fun experience. We have a beautiful, 7 acre property in one fo the most picturesque towns in all of Canada, Beaverton. 
+        An unassuming group, Mara Place is made up of a diverse group of individuals that make life here a stimulating and fun experience. We have a beautiful, 7 acre property in one of the most picturesque towns in all of Canada, Beaverton. 
         Residences often enjoy walking our tranquil grounds where you can see a variety of natural spectacles. 
+        </p>
+        <p className="max-w-3xl mx-auto text-gray-700 mb-10">
+          The Community Homes for Opportunity (CHO) program provides supportive, affordable housing to those who are living with a serious mental illness
+          CHO program is designed for those who are 16 years of age and older looking to live in a congregate residential living setting, with ample support. As an eligible individual, you are able to manage your self-care with some supervision
         </p>
 
         {/* Features list */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-gray-700 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-gray-700 text-left justify-center">
         {[
           "Highly affordable",
           "15 years of experience",
@@ -146,8 +149,6 @@ export default function HomePage() {
           "24/7 Emergency Response",
           "Medical monitoring",
           "Social outings and specialized day programs",
-          "All Inclusive",
-          "Emergency 'Transportation'",
           "Recreational programs",
         ].map((feature, i) => (
           <div key={i} className="flex items-center space-x-2">
@@ -177,7 +178,7 @@ export default function HomePage() {
           </div>
           <div className="w-full md:w-1/2 text-gray-700">
             <p className="mb-4">
-              Our highly affordable, all inclusive services include:
+              Our highly affordable services include:
             </p>
             <ul className="list-disc list-inside space-y-2 mb-8 text-sm">
               <li>On-site caregiver 24 hours a day / 7 days a week</li>

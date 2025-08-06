@@ -47,8 +47,8 @@ export default function ServicesPage() {
           <li>Medical Monitoring of blood sugar and blood pressure.</li>
           <li>Arrangements* of Full Service Beauty Salon / Barber shop and nails.</li>
           <li>Prescription services delivered 24 hours a day / 7 days a week.</li>
-          <li>Supplying personal hygiene items*.</li>
-          <li>Transportation to medical appointments such as to doctors and labs*.</li>
+          <li>Supplying personal hygiene items.</li>
+          <li>Transportation to medical appointments such as to doctors and labs.</li>
           <li>Assistance with daily tasks such as visiting the washroom and bathing.</li>
           <li>Healthy delicious meals and snacks.</li>
           <li>
